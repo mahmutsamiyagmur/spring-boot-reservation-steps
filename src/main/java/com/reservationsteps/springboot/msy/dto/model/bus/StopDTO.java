@@ -1,4 +1,4 @@
-package com.starterkit.springboot.brs.dto.model.bus;
+package com.reservationsteps.springboot.msy.dto.model.bus;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

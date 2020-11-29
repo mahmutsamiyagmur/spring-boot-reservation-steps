@@ -1,4 +1,4 @@
-package com.starterkit.springboot.brs.dto.model.bus;
+package com.reservationsteps.springboot.msy.dto.model.bus;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -15,23 +15,23 @@ import lombok.experimental.Accessors;
 @ToString
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class TicketDTO {
+public class TripDTO {
 
     private String id;
 
+    private int fare;
+
+    private int journeyTime;
+
+    private String sourceStopCode;
+
+    private String sourceStopName;
+
+    private String destinationStopCode;
+
+    private String destinationStopName;
+
     private String busCode;
 
-    private String seatNumber;
-
-    private boolean cancelable;
-
-    private String journeyDate;
-
-    private String sourceStop;
-
-    private String destinationStop;
-
-    private String passengerName;
-
-    private String passengerMobileNumber;
+    private String agencyCode;
 }
