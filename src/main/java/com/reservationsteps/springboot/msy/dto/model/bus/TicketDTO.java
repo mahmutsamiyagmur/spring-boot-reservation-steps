@@ -21,7 +21,7 @@ public class TicketDTO {
 
     private String busCode;
 
-    private String seatNumber;
+    private int seatNumber;
 
     private boolean cancelable;
 
