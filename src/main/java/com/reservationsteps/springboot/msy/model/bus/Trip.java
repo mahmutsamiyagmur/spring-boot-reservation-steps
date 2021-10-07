@@ -19,9 +19,9 @@ public class Trip {
     @Id
     private String id;
 
-    private String fare;
-
-    private String journeyTime;
+    private int fare;
+    // fixme time can be date.
+    private int journeyTime;
 
     @DBRef
     private Stop sourceStop;
